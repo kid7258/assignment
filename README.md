@@ -28,6 +28,7 @@ size|Integer|한 페이지에 보여질 문서 수, 1~50 사이의 값, 기본 �
 테스트 케이스:
 - DataJpaTest를 이용한 Repository 테스트 케이스 작성
 - MockWebServer와 Mockito를 이용하여 검색 API 장애에 대한 failover 처리 작성
+  - ![image](https://user-images.githubusercontent.com/68180535/226934182-abcbeccb-0c8f-4a97-8a51-a119dd4be268.png)
 - Mockito를 이용하여 인기 검색어 조회 테스트 케이스 작성
 
 우대사항:
