@@ -9,12 +9,13 @@ java -jar blog-0.0.1-SNAPSHOT.jar
 API 명세:
 - API: GET /v1/blogs
 - 설명: 특정 검색어가 포함된 블로그 조회
-|Parameter|Type|Description|Required|
-|------|---|---|---|
-|keyword|String|검색을 원하는 질의어|O|
-|sort|String|결과 문서 정렬 방식, ACCURACY(정확도순) 또는 RECENCY(최신순), 기본 값 ACCURACY|X|
-|page|Integer|결과 페이지 번호, 1~50 사이의 값, 기본 값 1|X|
-|size|Integer|한 페이지에 보여질 문서 수, 1~50 사이의 값, 기본 값 10|X|
+
+Parameter|Type|Description|Required
+-------|---|---|---
+keyword|String|검색을 원하는 질의어|O
+sort|String|결과 문서 정렬 방식, ACCURACY(정확도순) 또는 RECENCY(최신순), 기본 값 ACCURACY|X
+page|Integer|결과 페이지 번호, 1~50 사이의 값, 기본 값 1|X
+size|Integer|한 페이지에 보여질 문서 수, 1~50 사이의 값, 기본 값 10|X
 
 - API: GET /v1/blogs/keyword-ranking
 - 설명: 조회 수가 포함된 인기 검색어 목록 (최대 10개)
