@@ -2,6 +2,7 @@
 
 다운로드 링크:
 https://drive.google.com/file/d/1sn0JRFfPEK-_XcqLJ86OZZczKKbMk7k4/view?usp=share_link
+- 다운 받는데 시간이 좀 걸립니다...
 
 실행 명령어:
 java -jar blog-0.0.1-SNAPSHOT.jar
